@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    margin-top: 40px;
+}
+
+.comment-box{
+    list-style: none;
+    padding-left: 0 ;
+}
+.comment-box .comment h6{
+    font-weight: 800;
+}
+
+p{
+    font-size: 16px;
+}
+
+.comment{
+    animation: something .6s ease forwards;
+}
+
+@keyframes something{
+    0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

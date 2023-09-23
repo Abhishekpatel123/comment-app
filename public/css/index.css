@@ -25,6 +25,14 @@ p{
     animation: something .6s ease forwards;
 }
 
+.user{
+    padding: .5rem 1.2rem;
+    color: brown;
+    border: none;
+    background-color: rgba(165, 42, 42, 0.247);
+    border-radius: 1rem;
+}
+
 @keyframes something{
     0%{
         transform: translateY(-30px);
@@ -38,10 +46,70 @@ p{
 
 
 
+/* ------------------- */
 
+body{margin-top:20px;}
 
+.chat-online {
+    color: #34ce57
+}
 
+.chat-offline {
+    color: #e4606d
+}
 
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    overflow-y: scroll
+}
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+    flex-grow: 0!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+
+.no-user{
+    text-align: center;
+    margin-top: 1rem;
+    font-family: fantasy;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.user-name{
+    font-size: 20px;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    font-family: cursive;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
 
 
 
